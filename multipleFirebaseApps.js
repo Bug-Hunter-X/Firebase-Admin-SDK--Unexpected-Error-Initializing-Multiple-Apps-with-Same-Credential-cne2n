@@ -1,0 +1,1 @@
+The Firebase Admin SDK's `initializeApp()` function throws an unexpected error when initializing multiple apps with the same credential but different database URLs. This can occur if your application needs to interact with multiple Firebase projects, each with its own database instance.  The error message might not be very descriptive, making it difficult to pinpoint the cause.
